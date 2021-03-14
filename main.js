@@ -1,7 +1,7 @@
 // tady je místo pro náš program
 
 
-document.querySelector("#vysledek").innerHTML = secti(4, 5);
+//document.querySelector("#vysledek").innerHTML = secti(4, 5);
 /**
  * Sečte dvě čísla na vstupu a vrátí výsledek
  *
@@ -27,6 +27,10 @@ function upozorni() {
 
 function barva(){
   document.querySelector(".ctverecek").style.backgroundColor = "green";
+}
+
+function zobrazVysledek(){
+  document.querySelector("#vysledek").innerHTML = secti(4, 5);
 }
 
 /*
