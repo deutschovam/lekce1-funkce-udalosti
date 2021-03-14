@@ -18,11 +18,11 @@ function secti(a, b) {
  */
 
 let text = document.getElementById("zmenaTextu");
-text.textContent = "Gratulace!";
-console.log("Gratulace, právě jsi spustila tuto funkci!");
 
 function upozorni() {
   alert("Gratulace, právě jsi spustila tuto funkci!");
+  text.textContent = "Gratulace!";
+  console.log("Gratulace, právě jsi spustila tuto funkci!");
 }
 
 function barva(){
