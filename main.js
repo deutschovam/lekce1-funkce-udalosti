@@ -17,12 +17,15 @@ function secti(a, b) {
  * Upozorní uživatele při spuštění.
  */
 
-let text = document.getElementById("zmenaTextu");
+
 
 function upozorni() {
   alert("Gratulace, právě jsi spustila tuto funkci!");
-  text.textContent = "Gratulace!";
   console.log("Gratulace, právě jsi spustila tuto funkci!");
+  
+  let squareElement = document.getElementsByClassName("ctverecek")[0];
+  squareElement.textContent = "Gratulace, právě jsi spustila tuto funkci!";
+  squareElement.style.width = "400px";
 }
 
 function barva(){
